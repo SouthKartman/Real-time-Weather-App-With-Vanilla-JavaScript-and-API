@@ -27,9 +27,9 @@
             <a href="" class="logo">
                 <img src="img/logo.png" width="364" height="58" alt="logo">
             </a>
-    
-    
-            <div class="search-view active" data-search-view>
+            
+        
+            <div class="search-view" data-search-view>   <!-- Mobile Section class="search-view active" -->
     
                 <div class="search-wrapper">
                     <input type="search" name="search" placeholder="Search city..." class="search-field searching" autocomplete="off" data-search-field>
@@ -74,12 +74,302 @@
                 <span class="m-icon">my_location</span>
             </a>
     
-            <span class="span">Current Location</span>
+            <!-- <span class="span">Current Location</span> -->
         </div>
     
         </div>
        
     </header>
+
+
+    <main>
+        <article class="container">
+
+            <div class="content-left">
+
+                <!-- Current weather -->
+                
+                <section class="section current-weather"
+                data-current-weather aria-label="current weather">
+                    <div class="card card-lg current-weather-card">
+
+                        <h2 class="title-2 card-title">Now</h2>
+
+                        <div class="weapper">
+                            <p class="heading">25&deg; <sup>c</sup></p>
+
+                            <img src="img/weather_icons/01d.png" alt="" height="64" width="64" class="weather-icon"
+                            alt="Overcast Clouds">
+                        </div>
+
+                        <p class="body-3">Overcast clouds</p>
+
+                        <ul class="meta-list">
+
+                            <li class="meta-item">
+                                <span class="m-icon">calendar_today</span>
+
+                                <p class="title meta-text">Thursday 16, Feb</p>
+                            </li>
+
+                            <li class="meta-item">
+                                <span class="m-icon">location_on</span>
+
+                                <p class="title meta-text">London, GB</p>
+                            </li>
+
+
+                        </ul>
+
+                        
+                    </div>
+                </section>
+
+
+                <!-- Forecast -->
+
+                <section class="section forecast" aria-labelledby="forecast-label">
+                    <h2 class="title-2" id="forecast-label">5 Days Forecast</h2>
+
+                    <div class="card card-lg forecast-card">
+
+                        <ul>
+
+                            <li class="card-item">
+
+                                <div class="icon-wrapper">
+                                    <img src="img/weather_icons/01n.png" width="36" height="36" alt="Overcast Clouds" class="weather-icon">
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+
+                            </li>
+
+                            <li class="card-item">
+
+                                <div class="icon-wrapper">
+                                    <img src="img/weather_icons/01n.png" width="36" height="36" alt="Overcast Clouds" class="weather-icon">
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+
+                            </li>
+
+                            <li class="card-item">
+
+                                <div class="icon-wrapper">
+                                    <img src="img/weather_icons/01n.png" width="36" height="36" alt="Overcast Clouds" class="weather-icon">
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+
+                            </li>
+
+                            <li class="card-item">
+
+                                <div class="icon-wrapper">
+                                    <img src="img/weather_icons/01n.png" width="36" height="36" alt="Overcast Clouds" class="weather-icon">
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+
+                            </li>
+
+                            <li class="card-item">
+
+                                <div class="icon-wrapper">
+                                    <img src="img/weather_icons/01n.png" width="36" height="36" alt="Overcast Clouds" class="weather-icon">
+                                    <span class="span">
+                                        <p class="title-2">25</p>
+                                    </span>
+                                </div>
+
+                                <p class="label-1">17 Feb</p>
+                                <p class="label-1">Friday</p>
+
+                            </li>
+                            
+                        </ul>
+                        
+                    </div>
+                </section>
+
+            </div>
+
+            
+            <div class="content-right">
+                <!-- HightLights -->
+                <section class="section hightlights" aria-label="hightlights-label" data-hightlights>
+                    <div class="card card-lg">
+
+                        <h2 class="title-2" id="hightlights-label">Todays Hightlights</h2>
+
+                        <div class="highlight-list">
+
+                            <div class="card highlight-card ">
+                                <div class="card card-sm hightlight-card one">
+
+                                    <h3 class="title-3">Air Quality Index</h3>
+
+                                    <div class="wrapper">
+
+                                        <div class="m-icon" style="width: 2pc;">air</div>
+
+                                        <ul class="card-list">
+
+                                            <li class="card-item">
+                                                <p class="title-1">23.3</p>
+
+                                                <p class="label-1">PM<sub>2.5</sub></p>
+                                            </li>
+
+                                            <li class="card-item">
+                                                <p class="title-1">23.3</p>
+
+                                                <p class="label-1">PM<sub>2.5</sub></p>
+                                            </li>
+
+                                            <li class="card-item">
+                                                <p class="title-1">23.3</p>
+
+                                                <p class="label-1">PM<sub>2.5</sub></p>
+                                            </li>
+
+                                            <li class="card-item">
+                                                <p class="title-1">23.3</p>
+
+                                                <p class="label-1">PM<sub>2.5</sub></p>
+                                            </li>
+
+                                        </ul>
+
+                                    </div>
+
+                                    <span class="badge aqi-1 label-1" title="aqi message">
+                                        Good
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="card highlight-card two">
+                                <div class="card card-sm hightlight-card two">
+
+                                    <h3 class="title-3">Sunrise & Sunset</h3>
+
+                                    <div class="card-list">
+
+                                        <div class="card-item">
+                                            
+                                            <!-- <span class="m-icon">clear_day</span> -->
+                                            <span class="m-icon">thermostat</span>
+
+                                            <div>
+
+                                                <p class="label-1">Sunrise</p>
+
+                                                <p class="title-1">6:30AM</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="card-item">
+                                           
+                                            <!-- <span class="m-icon">clear_night</span> -->
+                                            <span class="m-icon">thermostat</span>
+                                            <div>
+
+                                                <p class="label-1">Sunset</p>
+    
+                                                <p class="title-1">5:54PM</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+
+                                
+
+                                </div>
+                            </div>
+
+                            <div class="card card-sm highlight-card">
+
+                                <h3 class="title-3">Humidity</h3>
+
+                                <div class="wrapper">
+
+                                    <span class="m-icon">thermostat</span>
+                                    <!-- <span class="m-icon">humidity_percentage</span> -->
+
+                                    <p class="p-title-1">35<sup>%</sup></p>
+                                </div>
+
+                            </div>
+
+                            <div class="card card-sm highlight-card">
+
+                                <h3 class="title-3">Pressure</h3>
+
+                                <div class="wrapper">
+                                    
+                                    <span class="m-icon">airwave</span>
+
+                                    <p class="p-title-1">1052<sub>hPa</sub></p>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card card-sm highlight-card">
+
+                                <h3 class="title-3">Visibility</h3>
+
+                                <div class="wrapper">
+                                    <span class="m-icon">visibility</span>
+
+                                    <p class="p-title-1">10<sub>km</sub></p>
+                                </div>
+
+                            </div>
+
+                            <div class="card card-sm highlight-card">
+
+                                <h3 class="title-3">Feels Like</h3>
+
+                                <div class="wrapper">
+                                    <span class="m-icon">thermostat</span>
+
+                                    <p class="p-title-1">25&deg;<sup>C</sup></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+
+
+        </article>
+    </main>
+
 
     <!-- Real-time Weather App Using Vanilla JavaScript and API - https://www.youtube.com/watch?v=QMwyNnjAils&t=1460s&ab_channel=codewithsadee -->
     
