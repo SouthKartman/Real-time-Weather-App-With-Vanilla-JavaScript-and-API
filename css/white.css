@@ -749,6 +749,7 @@ article.container::before{
 
 .slider-container
 {
+    padding: 10px 0;
     overflow-x:auto;
     margin-inline: -16px;
 }
