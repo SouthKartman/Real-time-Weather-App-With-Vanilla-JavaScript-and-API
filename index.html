@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
-    <link rel="stylesheet" href="css/black.css">
+    <link id="theme-style"  rel="stylesheet" href="css/black.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sarojkumar007/m-icons/dist/m-icons-all.min.css">
-    <script src="" type="module"></script>
-    <script src="" type="module"></script>
+    
     
 </head>
 
@@ -29,6 +28,7 @@
 
                 <!-- Logo -->
                                 <!-- black logo -->
+
                                 <svg viewBox="0 0 586 223" class="logo_blackTheme" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_143_59)">
                                     <path d="M85.6875 150.549C85.6875 150.638 85.724 150.723 85.789 150.786C85.8539 150.849 85.942 150.885 86.0339 150.885L99.3024 150.893C99.3943 150.893 99.4824 150.928 99.5474 150.991C99.6123 151.054 99.6488 151.139 99.6488 151.228L99.6405 164.034C99.6405 164.123 99.677 164.208 99.7419 164.271C99.8069 164.334 99.895 164.37 99.9869 164.37H183.087C183.179 164.37 183.267 164.334 183.332 164.271C183.397 164.208 183.433 164.123 183.433 164.034L183.429 90.3029C183.429 90.2139 183.393 90.1287 183.328 90.0658C183.263 90.0029 183.175 89.9676 183.083 89.9676L169.802 89.9514C169.71 89.9514 169.622 89.9161 169.557 89.8532C169.492 89.7903 169.455 89.705 169.455 89.6161L169.447 76.8582C169.447 76.8142 169.438 76.7706 169.421 76.7299C169.403 76.6892 169.378 76.6523 169.346 76.6211C169.313 76.59 169.275 76.5653 169.233 76.5485C169.191 76.5316 169.146 76.5229 169.101 76.5229H155.849C155.757 76.5229 155.669 76.4876 155.604 76.4247C155.539 76.3618 155.502 76.2765 155.502 76.1876L155.511 70.1117C155.511 70.0227 155.474 69.9375 155.409 69.8746C155.344 69.8117 155.256 69.7764 155.164 69.7764L141.904 69.7885C141.812 69.7885 141.724 69.8238 141.659 69.8867C141.594 69.9496 141.558 70.0349 141.558 70.1238L141.541 76.1997C141.541 76.2887 141.505 76.374 141.44 76.4368C141.375 76.4997 141.287 76.535 141.195 76.535L113.961 76.531C113.915 76.531 113.87 76.5223 113.828 76.5055C113.786 76.4886 113.748 76.4639 113.716 76.4328C113.684 76.4017 113.658 76.3647 113.641 76.324C113.623 76.2833 113.614 76.2397 113.614 76.1957L113.639 70.1198C113.639 70.0308 113.603 69.9455 113.538 69.8827C113.473 69.8198 113.385 69.7844 113.293 69.7844H99.9911C99.8992 69.7844 99.8111 69.8198 99.7461 69.8827C99.6812 69.9455 99.6447 70.0308 99.6447 70.1198V76.1715C99.6447 76.2155 99.6357 76.2591 99.6183 76.2998C99.6009 76.3405 99.5754 76.3774 99.5432 76.4086C99.511 76.4397 99.4728 76.4644 99.4308 76.4812C99.3888 76.4981 99.3437 76.5068 99.2982 76.5068L86.0381 76.5472C85.9462 76.5472 85.8581 76.5825 85.7931 76.6454C85.7282 76.7083 85.6917 76.7935 85.6917 76.8825L85.6875 150.549Z" stroke="#D080FF" stroke-width="2"/>
@@ -242,10 +242,10 @@
             </a>
             
         
-            <div class="search-view" data-search-view>   <!-- Mobile Section class="search-view active" -->
+            <div class="search-view" id="search-view" data-search-view>   <!-- Mobile Section class="search-view active" -->
     
                 <div class="search-wrapper">
-                    <input type="search" name="search" placeholder="Search city..." class="search-field searching" autocomplete="off" data-search-field>
+                    <input type="search" name="search" placeholder="Search city..." class="search-field" autocomplete="off" data-search-field>
     
                     <span class="m-icon" 
                     style="
@@ -254,7 +254,7 @@
                     left: 21px;
                     position: absolute;">search</span>
 
-                    <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggle>
+                    <button class="icon-btn leading-icon has-state" aria-label="close search"  data-search-toggler>
                         <span class="m-icon">arrow_back</span>
                     </button>
                 </div>
@@ -262,20 +262,7 @@
             
     
                 <div class="search-result" data-search-result>
-                    <ul class="view-list">
-                        <li class="view-item">
-                            <span class="m-icon">location_on</span>
-            
-                            <div>
-                                    <p class="item-title">Arzamas</p>
-                                    <p class="p-label-2 item-subtitle">Russia, Ru</p>
-                            </div>
-            
-                            <a href="#" class="item-link has-state"></a>
-            
-                        </li>
-            
-                    </ul>
+                    
                 </div>
 
 
@@ -284,8 +271,12 @@
         
         <div class="header-actions">
             
-            <button class="icon-btn has-state" aria-label="open search" data-search-toggler>
+            <button class="icon-btn has-state" aria-label="open search" id="toggleButton" data-search-toggler>
                 <span class="m-icon icon">search</span>
+            </button>
+
+            <button class="icon-btn has-state theme_btn" aria-label="open search" onclick="toggleTheme()">
+                <span class="m-icon icon">dark_mode</span>
             </button>
             <!-- <a href="#/current-location" class="btn-primary has-state" data-current-location-btn disabled> -->
             <a href="#/current-location" class="btn-primary has-state" data-current-location-btn >
@@ -797,7 +788,7 @@
                     </p>
     
                     <p class="body-3">
-                        Powered by <a href="https://openweather.corg/api" target="_blank" rel="noopener" title="Free Openweather Api">
+                        Powered by <a href="https://openweathermap.org/api" target="_blank" rel="noopener" title="Free Openweather Api">
                             <img src="img/openweather.png" width="150" height="30" loading="lazy" alt="OpenWeather">
                         </a>
                     </p>
@@ -834,10 +825,31 @@
 
     </section>
 
+   
+    <script type="module" lang="JavaScript"  src="js/app.js" defer></script>
+    <script type="module" lang="JavaScript" src="js/api.js" defer></script>
     
+    <script>
+        function toggleTheme() {
+            const themeStyleLink = document.getElementById('theme-style');
 
+            // Check the current theme
+            const currentTheme = themeStyleLink.getAttribute('href');
+
+            // Define your themes
+            const lightTheme = 'css/white.css';
+            const darkTheme = 'css/black.css';
+ 
+            // Toggle between themes
+            if (currentTheme === lightTheme) {
+                themeStyleLink.setAttribute('href', darkTheme);
+            } else {
+                themeStyleLink.setAttribute('href', lightTheme);
+            }
+        }
+    </script>
     <!-- Real-time Weather App Using Vanilla JavaScript and API - https://www.youtube.com/watch?v=QMwyNnjAils&t=1460s&ab_channel=codewithsadee -->
     
-    <!-- 1:40:17 -->
+    <!-- 2:22:00 -->
 </body>
 </html>
