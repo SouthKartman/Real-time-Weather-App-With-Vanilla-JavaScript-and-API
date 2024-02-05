@@ -1,8 +1,6 @@
 'use strict'
 
-
-
-const api_key = "";
+const api_key = "4cedc134ea38c21edb52a130f13f2c0a";
 
 // @param {string} URL
 // @param {function} API

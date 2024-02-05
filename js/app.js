@@ -91,13 +91,14 @@ const errorContent = document.querySelector("[data-error-content]");
 
 export const updateWeather = function (lat,lon)
 {
-    loading.style.display = "grid";
+    // loading.style.display = "grid";
     container.style.overflowY = "hidden";
     container.classList.contains("fade-in") ?? container.classList.remove("fade-in");
     errorContent.style.display = "none";
 
 
-const currentWeatherSection = document.querySelector("[data-highlights]");
+const currentWeatherSection = document.querySelector("[data-current-section]");
+const highlightSection = document.querySelector("[data-highlights]");
 const hourlySection = document.querySelector("[data-hourly-forecast]");
 const forecastSection = document.querySelector("[data-5-day-forecast]");
 
@@ -106,9 +107,12 @@ highlightSection.innerHTML = "";
 hourlySection.innerHTML = "";
 forecastSection.innerHTML = "";
 
-if (window.location.bash === "#/current-location")
+if (window.location.hash === "#/current-location")
 {
     currentLocationBtn.setAttribute("disabled", "");
+}else
+{
+    currentLocationBtn.removeAttribute("disabled")
 }
 
 fetchData(url.currentWeather(lat,lon),function (currentWeather){
@@ -169,9 +173,9 @@ fetchData(url.currentWeather(lat,lon),function (currentWeather){
 
 }
 
-// export const error404 = function{
+ export const error404 = function(){
 
-// }
+ }
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     var myBlock = document.getElementById("search-view");

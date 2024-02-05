@@ -4,7 +4,7 @@ import {updateWeather, error404} from "./app.js";
 
 const defaultLocation = "#/weather?lat=23.7644025&lon=90.389015"
 
-const currentLocation = function()
+export const currentLocation = function()
 {
     window.navigator.geolocation.getCurrentPosition(res=>{
         const {latitude, longitude} = res.coords;
@@ -21,9 +21,9 @@ const searchedLocation = query => updateWeather(... query.split("&"));
 
 const routes = new Map(
     [
-        ["/current-location", currentLocation]
+        ["/current-location", currentLocation],
         ["/weather", searchedLocation]
-    ]
+    ],
 );
 
 const checkHash = function ()
