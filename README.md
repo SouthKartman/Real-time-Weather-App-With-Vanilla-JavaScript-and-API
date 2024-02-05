@@ -58,10 +58,5 @@ Lil Paper - кроссплатформенное приложение для у�
 
 <br>
 
-![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/58ca5606-5770-43b1-be44-fb1fb051a9a0)
-
-<br>
-
-![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/5380db32-16a7-4b63-ae77-df78fbf40bd5)
 
 
