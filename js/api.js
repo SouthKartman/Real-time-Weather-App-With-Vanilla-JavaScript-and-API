@@ -1,14 +1,14 @@
 'use strict'
 
-const api_key = "4cedc134ea38c21edb52a130f13f2c0a";
+const api_key = "";
 
 // @param {string} URL
 // @param {function} API
 
 
-export const fetchData = function (url, callback)
+export const fetchData = function (URL, callback)
 {
-    fetch(`${url}&appid=${api_key}`)
+    fetch(`${URL}&appid=${api_key}`)
         .then(res => res.json())
         .then(data => callback(data));
 }

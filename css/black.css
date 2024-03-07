@@ -321,7 +321,9 @@ body{
 {
     font-size: var(--title-2);
     margin-inline-end: 12px;
+    margin: 10px;
 }
+
 
 .title-3
 {

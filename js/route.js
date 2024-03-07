@@ -2,29 +2,29 @@
 
 import {updateWeather, error404} from "./app.js";
 
-const defaultLocation = "#/weather?lat=23.7644025&lon=90.389015"
+const defaultLocation = "#/weather?lat=23.7644025&lon=90.389015";
 
 export const currentLocation = function()
 {
-    window.navigator.geolocation.getCurrentPosition(res=>{
+    window.navigator.geolocation.getCurrentPosition(res => {
         const {latitude, longitude} = res.coords;
 
         updateWeather(`lat=${latitude}`,`lon=${longitude}`);
-    },err => {
+      
+    }, err => {
         window.location.hash = defaultLocation;
     });
 }
 
-const searchedLocation = query => updateWeather(... query.split("&"));
-//update weather
+const searchedLocation = query => updateWeather(...query.split("&"));
 
+//update weather
 
 const routes = new Map(
     [
         ["/current-location", currentLocation],
         ["/weather", searchedLocation]
-    ],
-);
+    ]);
 
 const checkHash = function ()
 {

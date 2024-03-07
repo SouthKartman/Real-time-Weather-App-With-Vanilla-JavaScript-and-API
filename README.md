@@ -1,56 +1,8 @@
-# Lil Paper
-
-**Описание:**
-Lil Paper - кроссплатформенное приложение для удобного отслеживания погоды и создания заметок. Пользователи могут получать актуальную информацию о погоде, добавлять заметки и связывать их с конкретными местоположениями на карте.
-
-**Основные функциональности:**
-1. **Просмотр погоды:**
-   - Отображение текущей погоды для выбранного города или местоположения пользователя.
-   - График прогноза на ближайшие дни с подробной информацией.
-
-<br>
-
 ![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/7f534a40-3b7f-4e3d-ba10-57aa141ed551)
-
-
-
-2. **Интерактивная карта:**
-   - Возможность выбора местоположения на карте при создании заметок.
-   - Отображение маркеров для заметок на карте для визуального представления связей с местоположениями.
-
-3. **Адаптивный дизайн:**
-   - Поддержка различных устройств и размеров экранов для максимального комфорта пользователей.
-   
-   <br>
-
 ![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/1675d275-f87b-4aee-bfa7-1a7e0a0a2f7d)
-
-<br>
-
-6. **Технологии:**
-   - Frontend: HTML, CSS, JavaScript
-   - Интеграция с картографическими API для отображения интерактивной карты.
-
-**GitHub репозиторий:**
-[Ссылка на GitHub](https://github.com/yourusername/weather-notes)
-
-**Статус проекта:**
-Активный, в разработке.
-
-![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/45976762-28ca-4cc7-9499-986422fb5da9)
-
-**Автор:**
-Мишин Артём
-
-**Дополнительная информация:**
-- Проект разрабатывается с использованием принципов кроссплатформенной разработки.
-- Документация по использованию API и сборке проекта доступна в репозитории.
-
-<br>
-
 ![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/fe1908ca-7c14-467e-91b4-ade9e24126ee)
-
-<br>
-
+![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/45976762-28ca-4cc7-9499-986422fb5da9)
+![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/58ca5606-5770-43b1-be44-fb1fb051a9a0)
+![image](https://github.com/SouthKartman/Real-time-Weather-App-With-Vanilla-JavaScript-and-API/assets/93534577/5380db32-16a7-4b63-ae77-df78fbf40bd5)
 
 
